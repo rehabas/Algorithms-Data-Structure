@@ -34,5 +34,12 @@ Repeated Multiplication
 
 ##### Power Properties
 
+![](Images/Selection_091.png)
+
+#### Inverse of power
+
+Inverse of power
 
 
+
+Repeated Division
