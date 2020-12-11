@@ -42,8 +42,6 @@ This implies that **```f(n)```** does not grow faster than **```g(n)```**, or g(
 
 ###### Example:
 
-Assume that **```g(n)```** is the upper bound in the original equation: 
-
 ![](Images/Selection_105.png)
 
 ### 2. Omega Notation (Ω) - Lower Bound
