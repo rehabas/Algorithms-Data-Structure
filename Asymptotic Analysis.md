@@ -55,3 +55,25 @@ This implies that **```f(n)```** does not grow faster than **```g(n)```**, or g(
 If **```f(n)```** and **```g(n)```** are the two functions defined for positive integers,then 
 
 ![](Images/Selection_106.png)
+
+###### Example:
+
+![](Images/Selection_107.png)
+
+### 3. Theta Notation (θ) - Tight Bound
+
+- The ```theta notation``` mainly describes the **average case** scenarios.
+
+- It represents the realistic time complexity of an algorithm. Every time, an algorithm does not perform worst or best, in real-world problems, algorithms mainly fluctuate between the worst-case and best-case, and this gives us the average case of the algorithm.
+
+- It is the formal way to express both the upper bound and lower bound of an algorithm running time.
+
+![](Images/Selection_108.png)
+
+
+![](Images/Selection_109.png)
+
+
+## Analysis in simple way
+
+
