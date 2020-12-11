@@ -83,4 +83,5 @@ The following are the steps required to add two numbers entered by the user:
 
 **Step 6:** Stop
 
+## What we will learn
 
