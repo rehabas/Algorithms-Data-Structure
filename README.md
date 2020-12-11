@@ -1,11 +1,5 @@
 # Algorithms-Data-Structure
 
-## What is "Algorithms"?
- 
-- Steps to solve the problem.
-
-- A finite set of instructions which are being carried in a specific order to perform the specific task. It is not the complete program or code; it is just a solution (logic) of a problem, which can be represented either as an informal description using a Flowchart or Pseudocode.
- 
 ## What is "Data-Structure"?
 
 A way to store and organize data in memory in a specific structure so that it can be used efficiently.
@@ -23,4 +17,25 @@ in order to solve the above problems, data structures are used. Data is organize
 
 ## Data Structure Classification
 
+![](Images/ds-introduction.png)
 
+There are two types of data structures:
+
+### 1- Primitive Data structure
+
+The primitive data structures are primitive data types. The ```int```, ```char```, ```float```, ```double```, and ```pointer``` are the primitive data structures that can hold a single value.
+
+### 2- Non-Primitive Data structure
+
+The non-primitive data structure is divided into two types:
+
+**Linear Data Structures:** A data structure is called linear if all of its elements are arranged in the linear order. In linear data structures, the elements are stored in non-hierarchical way where each element has the successors and predecessors except the first and last element.
+
+**Non Linear Data Structures:** This data structure does not form a sequence i.e. each item or element is connected with two or more other items in a non-linear arrangement. The data elements are not arranged in sequential structure.
+
+## What is "Algorithms"?
+ 
+- Steps to solve the problem.
+
+- A finite set of instructions which are being carried in a specific order to perform the specific task. It is not the complete program or code; it is just a solution (logic) of a problem, which can be represented either as an informal description using a Flowchart or Pseudocode.
+ 
