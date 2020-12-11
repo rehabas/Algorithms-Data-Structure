@@ -83,5 +83,117 @@ The following are the steps required to add two numbers entered by the user:
 
 **Step 6:** Stop
 
+--------------------------
+
+## Mathematical Equations 
+
+A relation between input size and time
+
+We will express algorithm by a Mathematical Equations
+
+## Mathematical Requirements: 
+
+### Exponentials:
+
+#### Power
+
+Repeated Multiplication 
+
+<img src="https://render.githubusercontent.com/render/math?math=a^n= a*a*a..............">
+
+<img src="https://render.githubusercontent.com/render/math?math=2^3= 2*2*2=8">
+
+##### Power Properties
+
+![](Images/Selection_091.png)
+
+#### Logarithms
+
+Inverse of power
+
+![](Images/Selection_092.png)
+
+Repeated Division
+
+![](Images/Selection_093.png)
+
+### Functions:
+
+relation between input and output
+
+#### Popular Functions
+
+![](Images/Selection_094.png)
+
+### Graphs:
+
+visual way to represent a function
+
+**2D Graph**
+
+```x-axis``` (horizontal):  independent variable ```x```
+
+```y-axis``` (vertical):  dependent variable ```f(x)```
+
+![](Images/Selection_086.png)
+
+### Series:
+
+Collection of terms  
+
+a<sub>0</sub>, a<sub>1</sub>, a<sub>2<sub/>, .....
+
+#### 1. Arithmetic Series
+
+![](Images/Selection_095.png)
+
+#### 2. Geometric Series
+
+![](Images/Selection_096.png)
+
+#### Sum of Terms
+
+![](Images/Selection_098.png)
+
+------------------------------
+
+## Algorithm Complexity
+
+The performance of the algorithm can be measured in two factors:
+
+**Time complexity:** The amount of time required to complete the execution.
+
+The time complexity of an algorithm is denoted by the ```big O notation```. Here, ```big O notation``` is the asymptotic notation to represent the time complexity.
+
+The time complexity is mainly calculated by counting the number of steps to finish the execution. 
+
+**Space complexity:** The amount of space required to solve a problem and produce an output.
+
+Similar to the time complexity, space complexity is also expressed in ```big O notation```.
+
+### How to analysis
+
+- count time for each line
+
+- sum all times
+
+Assume the time is ```c```
+
+![](Images/Selection_099.png)
+
+![](Images/Selection_100.png)
+
+We want to simplify it more.
+
+### Reduction Rules
+
+1. ignore constants
+
+2. ignore lower bounds
+
+![](Images/Selection_101.png)
+
+-------------------
+
 ## What we will learn
 
