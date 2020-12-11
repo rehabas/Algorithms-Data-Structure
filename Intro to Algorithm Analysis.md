@@ -32,14 +32,59 @@ Repeated Multiplication
 
 <img src="https://render.githubusercontent.com/render/math?math=2^3= 2*2*2=8">
 
-##### Power Properties
+###### Power Properties
 
 ![](Images/Selection_091.png)
 
-#### Inverse of power
+##### Logarithms
 
 Inverse of power
 
-
+![](Images/Selection_092.png)
 
 Repeated Division
+
+![](Images/Selection_093.png)
+
+#### Functions:
+
+relation between input and output
+
+##### Popular Functions
+
+![](Images/Selection_094.png)
+
+#### Graphs:
+
+visual way to represent a function
+
+**2D Graph**
+
+```x-axis``` (horizontal):  independent variable ```x```
+
+```y-axis``` (vertical):  dependent variable ```f(x)```
+
+![](Images/Selection_086.png)
+
+#### Series:
+
+Collection of terms  
+
+a<sub>0</sub>, a<sub>1</sub>, a<sub>2<sub/>, .....
+
+##### 1. Arithmetic Series
+
+![](Images/Selection_095.png)
+
+##### 2. Geometric Series
+
+![](Images/Selection_096.png)
+
+##### Sum of Terms
+
+![](Images/Selection_098.png)
+
+
+
+
+
