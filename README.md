@@ -1,4 +1,4 @@
-# Algorithms-Data-Structure
+# Algorithms & Data Structure
 
 ## What is "Data-Structure"?
 
