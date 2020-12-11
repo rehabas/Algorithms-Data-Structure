@@ -38,4 +38,49 @@ The non-primitive data structure is divided into two types:
 - Steps to solve the problem.
 
 - A finite set of instructions which are being carried in a specific order to perform the specific task. It is not the complete program or code; it is just a solution (logic) of a problem, which can be represented either as an informal description using a Flowchart or Pseudocode.
+
+## Need of Algorithm
+
+1. To understand the basic idea of the problem.
+
+2. To find an approach to solve the problem.
+
+3. To improve the efficiency of existing techniques.
  
+ Let's understand the algorithm through a real-world example. Suppose we want to make a lemon juice, so following are the steps required to make a lemon juice:
+
+**Step 1:** First, we will cut the lemon into half.
+
+**Step 2:** Squeeze the lemon as much you can and take out its juice in a container.
+
+**Step 3:** Add two tablespoon sugar in it.
+
+**Step 4:** Stir the container until the sugar gets dissolved.
+
+**Step 5:** When sugar gets dissolved, add some water and ice in it.
+
+**Step 6:** Store the juice in a fridge for 5 to 10 minutes.
+
+**Step 7:** Now, it's ready to drink.
+
+The above real-world can be directly compared to the definition of the algorithm. We cannot perform the step 3 before the step 2, we need to follow the specific order to make lemon juice. An algorithm also says that each and every instruction should be followed in a specific order to perform a specific task.
+
+Now we will look an example of an algorithm in programming.
+
+We will write an algorithm to **add two numbers entered by the user**.
+
+The following are the steps required to add two numbers entered by the user:
+
+**Step 1:** Start
+
+**Step 2:** Declare three variables ```a```, ```b```, and ```sum```.
+
+**Step 3:** Enter the values of ```a``` and ```b```.
+
+**Step 4:** Add the values of ```a``` and ```b``` and store the result in the ```sum``` variable, i.e., ```sum = a + b```.
+
+**Step 5:** Print ```sum```
+
+**Step 6:** Stop
+
+
