@@ -76,4 +76,66 @@ If **```f(n)```** and **```g(n)```** are the two functions defined for positive 
 
 ## Analysis in simple way
 
+### Operation 
 
+- Doesn’t depend on input number.
+
+- Take a constant time at any number of ```n```.
+
+- Has **```O(1)```** time complexity.
+
+It means execution time of the algorithm does not depend on the size of the input. Its execution time is constant, so that as you increase size of the problem very large, the execution time ultimately remains the same.
+
+For example if you want to get the first element in an array. It doesn't matter how many elements are there in array, the complexity of this operation will always be of **```O(1)```**.
+
+### Loop
+
+Time Complexity of a loop is considered as **```O(n)```** if the loop variables is **incremented** / **decremented** by a **constant amount**.
+
+For example following loop has **```O(n)```** time complexity, because the loop will be repeated ```n``` times.
+
+```js
+for (let i = 0; i < n; i += 1) {
+   // any code here
+}
+```
+
+But here in the example below, the loop will be repeated ```once```. if ```n = 10``` then the loop will be repeated once, and also if ```n = 20``` then the loop will be repeated once. So it has **```O(1)```** time complexity.
+
+```js
+for (let i = 0; i < n; i += n) {
+   // any code here
+}
+```
+
+And in the example below, The loop will be repeated 10 times, and the value of ```n``` does not matter.
+
+```js
+for (let i = 0; i < 10; i += 1) {
+   // any code here
+}
+```
+
+Time Complexity of a loop is considered as **```O(Logn)```** if the loop variables is **divided** / **multiplied** by a **constant amount**.
+
+For example following loop has **```O(Logn)```**  time complexity.
+
+```js
+for (let i = n; i > 0; i /= 2) {
+   // any code here
+}
+```
+
+### Condition
+
+- We need to consider worst case. We evaluate the situation when values in if-else conditions cause maximum number of statements to be executed.
+
+- Take the time of the greatest condition.
+
+![](Images/Selection_112.png)
+
+###### Example
+
+![](Images/Selection_110.png)
+
+![](Images/Selection_111.png)
