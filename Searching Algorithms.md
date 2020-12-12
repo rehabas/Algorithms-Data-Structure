@@ -40,7 +40,7 @@ for i = 0 to n
 - Search for last element
 - **O(n)**
 
-#### Best Case:
+##### Best Case:
 - Search for first element
 - **O(1)**
 
@@ -92,7 +92,7 @@ go to middle
 - Search for first or last element
 - **O(log(n))**
 
-#### Best Case:
+##### Best Case:
 - Search for the middle element
 - **O(1)**
 
