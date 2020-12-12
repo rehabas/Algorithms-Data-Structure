@@ -198,3 +198,4 @@ We want to simplify it more.
 ## What we will learn
 
 - [Asymptotic Analysis](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Asymptotic%20Analysis.md)
+- [Searching Algorithms](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Searching%20Algorithms.md)
