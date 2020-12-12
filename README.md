@@ -199,3 +199,4 @@ We want to simplify it more.
 
 - [Asymptotic Analysis](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Asymptotic%20Analysis.md)
 - [Searching Algorithms](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Searching%20Algorithms.md)
+- [Sorting Algorithms](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Sorting%20Algorithms.md)
