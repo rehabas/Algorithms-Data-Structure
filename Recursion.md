@@ -300,3 +300,22 @@ Add costs of all the levels of the recursion tree and simplify the expression so
 
 ### 3. Master Method
 
+The Master Method is used for solving the following types of recurrence
+
+![](Images/Selection_132.png)
+
+We nees to calculate <img src="https://render.githubusercontent.com/render/math?math=n^x"> where:
+
+![](Images/Selection_133.png)
+
+There are following three cases:
+
+![](Images/Selection_134.png)
+
+###### Examples
+
+![](Images/Selection_135.png)
+
+![](Images/Selection_136.png)
+
+![](Images/Selection_137.png)
