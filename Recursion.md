@@ -214,22 +214,87 @@ I will not go into its details here, if you want that, google it 😊
 
 In this method, we draw a recurrence tree and calculate the time taken by every level of tree. Finally, we sum the work done at all levels. To draw the recurrence tree, we start from the given recurrence and keep drawing till we find a pattern among levels. The pattern is typically a arithmetic or geometric series.
 
-![](Images/Selection_126.png)
+![](Images/Selection_130.png)
 
-![](Images/Selection_127.png)
+#### Step 1:
+ 
+Draw a recursion tree based on the given recurrence relation.
+
+The given recurrence relation shows:
 
 - A problem of size ```n``` will get divided into 2 sub-problems of size ```n/2```.
 - Then, each sub-problem of size ```n/2``` will get divided into 2 sub-problems of size ```n/4``` and so on.
 - At the bottom most layer, the size of sub-problems will reduce to ```1```.
+ 
+This is illustrated through following recursion tree:
+
+![](Images/Selection_131.png)
+
+The given recurrence relation shows:
 
 - The cost of dividing a problem of size ```n``` into its 2 sub-problems and then combining its solution is ```n```.
 - The cost of dividing a problem of size ```n/2``` into its 2 sub-problems and then combining its solution is ```n/2``` and so on.
 
+#### Step 2:
+ 
 Determine cost of each level:
 
 - Cost of ```level-1 = n```
 - Cost of ```level-2 = n/2 + n/2 = n```
 - Cost of ```level-3 = n/4 + n/4 + n/4 + n/4 = n``` and so on.
+
+#### Step 3:
+ 
+Determine number of internal levels in the recursion tree:
+
+- Size of sub-problem at level-0 = <img src="https://render.githubusercontent.com/render/math?math=n/2^0">
+- Size of sub-problem at level-1 = <img src="https://render.githubusercontent.com/render/math?math=n/2^1">
+- Size of sub-problem at level-2 = <img src="https://render.githubusercontent.com/render/math?math=n/2^2">
+
+Continuing in similar manner, we have:
+
+- Size of sub-problem at level-i = <img src="https://render.githubusercontent.com/render/math?math=n/2^i">
+
+Suppose at level-i (last level), size of sub-problem becomes ```1```. Then:
+
+<img src="https://render.githubusercontent.com/render/math?math=n/2^i=1">
+
+<img src="https://render.githubusercontent.com/render/math?math=2^i=n">
+
+Taking ```log``` on both sides, we get:
+
+<img src="https://render.githubusercontent.com/render/math?math=i=log_2n">
+
+∴ Number of internal levels in the recursion tree = log2n + 1<img src="https://render.githubusercontent.com/render/math?math=log_2n">
+
+#### Step 4:
+ 
+Determine number of nodes in the last level:
+
+- Level-0 has <img src="https://render.githubusercontent.com/render/math?math=2^0"> nodes i.e. ```1 node```
+- Level-1 has <img src="https://render.githubusercontent.com/render/math?math=2^1"> nodes i.e. ```2 nodes```
+- Level-2 has <img src="https://render.githubusercontent.com/render/math?math=2^2"> nodes i.e. ```4 nodes```
+ 
+Continuing in similar manner, we have:
+
+- Level-i has <img src="https://render.githubusercontent.com/render/math?math=2^i"> nodes, <img src="https://render.githubusercontent.com/render/math?math=i=log_2n"> i.e. ```n nodes```
+
+#### Step 5:
+ 
+Determine cost of last level:
+
+Cost of last level = <img src="https://render.githubusercontent.com/render/math?math=n * T(1) = O(n)">
+
+#### Step 6:
+ 
+Add costs of all the levels of the recursion tree and simplify the expression so obtained in terms of asymptotic notation:
+
+    total cost = cost of internal levels + cost of last level
+               = (cost of each level * number of internal levels) + cost of last level
+               = n log n + O(n)
+<img src="https://render.githubusercontent.com/render/math?math=T(n)=nlog_2n"> + O(n)
+
+<img src="https://render.githubusercontent.com/render/math?math=T(n)=O(nlog_2n)">
 
 
 
