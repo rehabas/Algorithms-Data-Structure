@@ -202,3 +202,4 @@ We want to simplify it more.
 - [Sorting Algorithms](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Sorting%20Algorithms.md)
 - [Recursion](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Recursion.md)
 - [Divide and Conquer](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Divide%20and%20Conquer.md)
+- [Greedy Algorithms](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Greedy%20Algorithms.md)
