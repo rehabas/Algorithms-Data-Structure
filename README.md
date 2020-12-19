@@ -203,3 +203,4 @@ We want to simplify it more.
 - [Recursion](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Recursion.md)
 - [Divide and Conquer](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Divide%20and%20Conquer.md)
 - [Greedy Algorithms](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Greedy%20Algorithms.md)
+- [Dynamic Programming](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Dynamic%20Programming.md)
