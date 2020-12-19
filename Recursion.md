@@ -80,7 +80,7 @@ factorial(0) = 1
 
 In case of fibonacci series, next number is the sum of previous two numbers for example ```0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ……..```. The first two numbers of fibonacci series are ```0``` and ```1```.
 
-- ```fib(n)``` return n<sub>th</sub> number in Fibonacci series
+- ```fib(n)``` return n<sup>th</sup> number in Fibonacci series
 - ```fib(n) = fib(n-1) + fib(n-2)```
 - ```fib(0) = fib(1) = 1```
 
