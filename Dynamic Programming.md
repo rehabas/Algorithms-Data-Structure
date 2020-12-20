@@ -91,3 +91,43 @@ fib(n)
 	     lookup[i] = arr[i-1] + arr[i-2]
    return lookup[n]
 ```
+
+### 2. Optimal Substructure
+
+#### Fractional Knapsack Problem
+
+you can take a part of item
+
+![](Images/Selection_150.png)
+
+#### 0/1 Knapsack Problem
+
+you can’t take a part of item, you should take the item as a whole or should leave it. That's why it is called 0/1 knapsack Problem.
+
+- We have to either take an item completely or leave it completely.
+- Cannot take a fractional amount of an item taken or take an item more than once.
+- It cannot be solved by the Greedy Approach because it is enable to fill the knapsack to capacity.
+- Greedy Approach doesn't ensure an Optimal Solution.
+- It is solved using dynamic programming approach.
+
+###### Example
+
+The maximum weight the knapsack can hold is 5. There are three items to choose from. Their weights and values are presented as:
+
+![](Images/Selection_151.png)
+
+Is this the biggest profit w can get? No, because if we took ```20``` and ```30```, the profit would be ```100 + 120 = 220```, meaning this solution did not give us the maximum value, which is the optimum solution (the best solution for us).
+
+###### solution
+
+**Given**
+
+- Knapsack capacity ```(w) = 5 kg```
+- Number of items ```(n) = 3```
+
+**Step 1:**
+ 
+- Draw a table with ```(n+1) = 4 + 1 = 5``` number of rows and ```(w+1) = 5 + 1 = 6``` number of columns.
+- Fill all the boxes of 0<sup>th</sup> row and 0<sup>th</sup> column with ```0```.
+
+
