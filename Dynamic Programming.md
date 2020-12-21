@@ -136,7 +136,17 @@ Is this the biggest profit w can get? No, because if we took ```20``` and ```30`
  
 Start filling the table row wise top to bottom from left to right using the formula:
 
-```T[i, j] = max{T[i-1][j], value[i-1] + T[i-1][j - weight[i-1]]}```
+```T[i, j] = max{T[i-1][j], value(i) + T[i-1][j - weight(i)]}```
+
+for example,  The value of ```T[2, 3]``` was computed as follows:
+
+```
+T[2, 3] = max{T[2-1][3], value(2) + T[2-1][3 - weight(2)]}
+        = max{T[1][3], 100 + T[1][3-2]}
+	= max{60, 100 + 60}
+	= max{60, 160}
+	= 60
+```
 
 After all the entries are computed and filled in the table, we get the following table:
 
@@ -151,3 +161,9 @@ Items that must be put into the knapsack to obtain the maximum value ```220``` a
 
  ```Item-2``` and ```Item-3```, And their values, respectively, are ```100, 120```.
  
+**Time Complexity:**
+ 
+- Each entry of the table requires constant time **O(1)** for its computation.
+- It takes **O(nw)** time to fill ```(n+1)(w+1)``` table entries.
+- It takes **O(n)** time for tracing the solution since tracing process traces the ```n``` rows.
+- Thus, overall **O(nw)** time is taken to solve 0/1 knapsack problem using dynamic programming.
