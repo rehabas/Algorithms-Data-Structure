@@ -113,3 +113,78 @@ We are given pointer to a node, and the new node is inserted after the given nod
 
 ![](Images/Selection_162.png)
 
+#### Delete Element
+
+##### 1. Delete the first node
+
+To remove first node, we need to make second node as head and delete memory allocated for first node.
+
+![](Images/Selection_163.png)
+
+```
+deleteFirst()
+	head = head.next
+	n--
+```
+
+##### 2. Delete the last node
+
+To delete the last node of a linked list, find the second last node and make the next pointer of that node ```null```.
+
+![](Images/Selection_164.png)
+
+```
+deleteLast()
+	current = head
+	for i = 0 to n-1
+		current = current.next
+	tail = current
+	tail.next = null
+	n--
+```
+
+##### 3. Delete a given node
+
+To delete a node from the linked list, we need to find the previous node of the node to be deleted, and then change the next of the previous node. 
+
+![](Images/Selection_165.png)
+
+```
+delete(i)
+	current = head
+	for i = 0 to i-1
+		current = current.next
+	 current.next = current.next.next
+	n--
+```
+
+### 2. Doubly Linked List
+
+Each node has a value and pointers to next and previous nodes.
+
+![](Images/Selection_166.png)
+
+### 3. Circular Singly Linked List
+
+The last node of the list contains a pointer to the first node of the list.
+
+![](Images/Selection_167.png)
+
+### 4. Circular Doubly Linked List
+
+The node contain pointers to its previous node as well as the next node. Circular doubly linked list doesn't contain ```NULL``` in any of the node. The last node of the list contains the address of the first node of the list. The first node of the list also contain address of the last node in its previous pointer.
+
+![](Images/Selection_168.png)
+
+## Applications of Linked List
+
+1. Dynamic Memory
+
+2. Implement Stacks, Queues and other data structures
+
+3. Image Viewer, Web Browser, Media Players, ……
+
+4. Advanced Arithmetic
+
+
+
