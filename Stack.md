@@ -162,19 +162,19 @@ when reach the end of infix expression
 
 ###### Examples
 
-```A * B + C```
+##### 1. ```A * B + C```
 
 ![](Images/Selection_176.png)
 
-```A + B * C```
+##### 2. ```A + B * C```
 
 ![](Images/Selection_177.png)
 
-```A + (B - C) * D```
+##### 3. ```A + (B - C) * D```
 
 ![](Images/Selection_179.png)
 
-```A + B * ( C ^ D – E ) ^ ( F + G * H ) - I```
+##### 4. ```A + B * ( C ^ D – E ) ^ ( F + G * H ) - I```
 
 ![](Images/Selection_180.png)
 
@@ -190,7 +190,7 @@ Following is algorithm for evaluation postfix expressions.
 
 ###### Example
 
-```2  3 ^  3  4  *  +  5  -```
+##### ```2  3 ^  3  4  *  +  5  -```
 
 ![](Images/Selection_181.png)
 
