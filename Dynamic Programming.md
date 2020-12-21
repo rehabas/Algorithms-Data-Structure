@@ -112,7 +112,7 @@ you can’t take a part of item, you should take the item as a whole or should l
 
 ###### Example
 
-The maximum weight the knapsack can hold is 5. There are three items to choose from. Their weights and values are presented as:
+The maximum weight the knapsack can hold is ```5```. There are three items to choose from. Their weights and values are presented as:
 
 ![](Images/Selection_151.png)
 
@@ -127,7 +127,27 @@ Is this the biggest profit w can get? No, because if we took ```20``` and ```30`
 
 **Step 1:**
  
-- Draw a table with ```(n+1) = 4 + 1 = 5``` number of rows and ```(w+1) = 5 + 1 = 6``` number of columns.
+- Draw a table say ```T``` with ```(n+1) = 4 + 1 = 5``` number of rows and ```(w+1) = 5 + 1 = 6``` number of columns.
 - Fill all the boxes of 0<sup>th</sup> row and 0<sup>th</sup> column with ```0```.
 
+![](Images/Selection_155.png)
 
+**Step 2:**
+ 
+Start filling the table row wise top to bottom from left to right using the formula:
+
+```T[i, j] = max{T[i-1][j], value[i-1] + T[i-1][j - weight[i-1]]}```
+
+After all the entries are computed and filled in the table, we get the following table:
+
+![](Images/Selection_154.png)
+
+- The last entry represents the maximum possible value that can be put into the knapsack.
+- So, maximum possible value that can be put into the knapsack = ```220```.
+
+**Identifying Items To Be Put Into Knapsack:**
+ 
+Items that must be put into the knapsack to obtain the maximum value ```220``` are:
+
+ ```Item-2``` and ```Item-3```, And their values, respectively, are ```100, 120```.
+ 
