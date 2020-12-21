@@ -206,3 +206,4 @@ We want to simplify it more.
 - [Dynamic Programming](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Dynamic%20Programming.md)
 - [Arrays](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Arrays.md)
 - [Linked Lists](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Linked%20Lists.md)
+- [Stack](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Stack.md)
