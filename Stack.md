@@ -4,7 +4,7 @@
 
 A Stack is a linear data structure that follows the **LIFO** (Last-In-First-Out) principle. It contains only one pointer pointing to the top element of the stack. Whenever an element is added in the stack, it is added on the top of the stack, and the element can be deleted only from the stack. 
 
-![](Selection_169.png)
+![](Images/Selection_169.png)
 
 There are many real-life examples of a stack. Consider an example of plates stacked over one another in the canteen. The plate which is at the top is the first one to be removed, i.e. the plate which has been placed at the bottommost position remains in the stack for the longest period of time. So, it can be simply seen to follow LIFO(Last In First Out).
 
@@ -42,7 +42,8 @@ pop()
   return arr[top]
 ```
 
-**Pros:** Easy to implement. Memory is saved as pointers are not involved. 
+**Pros:** Easy to implement. Memory is saved as pointers are not involved.
+
 **Cons:** It is not dynamic. It doesn’t grow and shrink depending on needs at runtime.
 
 ## Implement Stack using Linked List
@@ -75,6 +76,7 @@ pop()
 ```
 
 **Pros:** The linked list implementation of stack can grow and shrink according to the needs at runtime. 
+
 **Cons:** Requires extra memory due to involvement of pointers.
 
 ## Check for Balanced Brackets in an expression using Stack
