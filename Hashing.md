@@ -90,15 +90,15 @@ Open Addressing is done in the following ways:
 
 - Use another hash function ```hash2(v)``` and look for ```i * hash2(v)``` slot in i<sup>th</sup> rotation. 
 
-     hash(v)
+      hash(v)
      
-     hash(v) + hash2(v)
+      hash(v) + hash2(v)
      
-     hash(v) + 2 * hash2(v)
+      hash(v) + 2 * hash2(v)
      
-     hash(v) + i * hash2(v)
+      hash(v) + i * hash2(v)
 
-     hash2(v) = PRIME – (v % PRIME), where PRIME is a prime number less than the size of array or hash table.
+      hash2(v) = PRIME – (v % PRIME), where PRIME is a prime number less than the size of array or hash table.
 
 #### Advantages:
 
