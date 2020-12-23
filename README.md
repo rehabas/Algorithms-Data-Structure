@@ -33,6 +33,13 @@ The non-primitive data structure is divided into two types:
 
 **Non Linear Data Structures:** This data structure does not form a sequence i.e. each item or element is connected with two or more other items in a non-linear arrangement. The data elements are not arranged in sequential structure.
 
+## What we will learn
+
+- [Arrays](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Arrays.md)
+- [Linked Lists](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Linked%20Lists.md)
+- [Stack](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Stack.md)
+- [Queue](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Queue.md)
+
 ## What is "Algorithms"?
  
 - Steps to solve the problem.
@@ -193,8 +200,6 @@ We want to simplify it more.
 
 ![](Images/Selection_101.png)
 
--------------------
-
 ## What we will learn
 
 - [Asymptotic Analysis](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Asymptotic%20Analysis.md)
@@ -204,7 +209,3 @@ We want to simplify it more.
 - [Divide and Conquer](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Divide%20and%20Conquer.md)
 - [Greedy Algorithms](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Greedy%20Algorithms.md)
 - [Dynamic Programming](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Dynamic%20Programming.md)
-- [Arrays](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Arrays.md)
-- [Linked Lists](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Linked%20Lists.md)
-- [Stack](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Stack.md)
-- [Queue](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Queue.md)
