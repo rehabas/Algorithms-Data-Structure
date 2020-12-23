@@ -213,3 +213,4 @@ We want to simplify it more.
 - [Linked Lists](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Linked%20Lists.md)
 - [Stack](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Stack.md)
 - [Queue](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Queue.md)
+- [Hashing](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Hashing.md)
