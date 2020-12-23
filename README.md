@@ -214,3 +214,4 @@ We want to simplify it more.
 - [Stack](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Stack.md)
 - [Queue](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Queue.md)
 - [Hashing](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Hashing.md)
+- [Tree](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Tree.md)
