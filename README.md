@@ -215,3 +215,4 @@ We want to simplify it more.
 - [Queue](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Queue.md)
 - [Hashing](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Hashing.md)
 - [Tree](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Tree.md)
+- [Huffman Coding](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Huffman%20Coding.md)
