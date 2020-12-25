@@ -216,3 +216,5 @@ We want to simplify it more.
 - [Hashing](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Hashing.md)
 - [Tree](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Tree.md)
 - [Huffman Coding](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Huffman%20Coding.md)
+- [Binary Search Tree](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Binary%20Search%20Tree.md)
+- [Graph](https://github.com/rehabas/Algorithms-Data-Structure/blob/main/Graph.md)
