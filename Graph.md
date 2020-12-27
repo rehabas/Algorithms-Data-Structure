@@ -99,8 +99,8 @@ A degree of a node is the number of edges that are connected with that node. A n
 ![](Images/Selection_238.png)
 
     the degree of 
-       Node Number , 0 is 3(3, 7, 8)
-       Node Number , 1 is 3(1, 3, 4) 
-       Node Number , 2 is 2(1, 2) 
-       Node Number , 3 is 4(2, 3, 4, 7) 
-       Node Number , 4 is 2(3, 8) 
+       Node Number 0 is 3(3, 7, 8)
+       Node Number 1 is 3(1, 3, 4) 
+       Node Number 2 is 2(1, 2) 
+       Node Number 3 is 4(2, 3, 4, 7) 
+       Node Number 4 is 2(3, 8) 
