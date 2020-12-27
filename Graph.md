@@ -56,7 +56,7 @@ A path can be defined as the sequence of nodes that are followed in order to rea
 
 #### Closed Path
 
-A path will be called as closed path if the initial node is same as terminal node. A path will be closed path if V<sub>0</sub>=V<sub>N</sub>.
+A path will be called as closed path if the initial node is same as terminal node. A path will be closed path if **V<sub>0</sub> = V<sub>N</sub>**.
 
 #### Simple Path
 
@@ -131,7 +131,7 @@ A degree of a node is the number of edges that are connected with that node. A n
 
 - In adjacency matrix, the rows and columns are represented by the graph vertices. A graph having ```n``` vertices, will have a dimension ```n * n```.
 
-- An entry M<sub>ij</sub> in the adjacency matrix representation of an undirected graph ```G``` will be ```1``` if there exists an edge between **V<sub>i</sub>** and **V<sub>j</sub>**.
+- An entry **M<sub>ij</sub>** in the adjacency matrix representation of an undirected graph ```G``` will be ```1``` if there exists an edge between **V<sub>i</sub>** and **V<sub>j</sub>**.
 
 ![](Images/Selection_249.png)
 
