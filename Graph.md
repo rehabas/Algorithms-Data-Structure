@@ -143,3 +143,6 @@ A degree of a node is the number of edges that are connected with that node. A n
 
 ![](Images/Selection_251.png)
 
+## Minimum Spanning Tree
+
+
