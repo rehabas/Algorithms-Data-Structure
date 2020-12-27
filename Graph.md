@@ -45,3 +45,62 @@ In a weighted graph, each edge is assigned with some data such as length or weig
 ### Unweighted Graph
 
 ![](Images/Selection_236.png)
+
+### Graph Terminology
+
+#### Path
+
+A path can be defined as the sequence of nodes that are followed in order to reach some terminal node ```V``` from the initial node ```U```.
+
+![](Images/Selection_239.png)
+
+#### Closed Path
+
+A path will be called as closed path if the initial node is same as terminal node. A path will be closed path if V<sub>0</sub>=V<sub>N</sub>.
+
+#### Simple Path
+
+A graph with no repeated vertices.
+
+![](Images/Selection_240.png)
+
+The path from ```A``` to ```B``` is a simple path.
+
+#### Cycle
+
+Simple path, except that the last vertex is the same as the first vertex. Its also known as a circuit or circular path.
+
+![](Images/Selection_241.png)
+
+#### connected graph
+
+Any two vertices are connected by some path.
+
+![](Images/Selection_242.png)
+
+#### Complete Graph
+
+A complete graph is the one in which every node is connected with all other nodes. A complete graph contain ```n(n-1)/2``` edges where ```n``` is the number of nodes in the graph.
+
+![](Images/Selection_243.png)
+
+#### Adjacent Nodes
+
+Two nodes are adjacent if they are connected by an edge.
+
+![](Images/Selection_235.png)
+
+```4``` is adjacent to ```5```
+
+#### Degree of the Node
+
+A degree of a node is the number of edges that are connected with that node. A node with degree ```0``` is called as isolated node.
+
+![](Images/Selection_238.png)
+
+    the degree of 
+       Node Number , 0 is 3(3, 7, 8)
+       Node Number , 1 is 3(1, 3, 4) 
+       Node Number , 2 is 2(1, 2) 
+       Node Number , 3 is 4(2, 3, 4, 7) 
+       Node Number , 4 is 2(3, 8) 
