@@ -104,3 +104,42 @@ A degree of a node is the number of edges that are connected with that node. A n
        Node Number 2 is 2(1, 2) 
        Node Number 3 is 4(2, 3, 4, 7) 
        Node Number 4 is 2(3, 8) 
+
+## Graph Representation
+
+### 1. Adjacency List
+
+- An array of lists is used. The size of the array is equal to the number of vertices. Let the array be an ```array[]```. An entry ```array[i]``` represents the list of vertices adjacent to the **i<sup>th</sup>** vertex.
+
+- An adjacency list is maintained for each node present in the graph which stores the node value and a pointer to the next adjacent node to the respective node.
+
+- If all the adjacent nodes are traversed then store the ```NULL``` in the pointer field of last node of the list. 
+
+- The sum of the lengths of adjacency lists is equal to the twice of the number of edges present in an undirected graph.
+
+![](Images/Selection_246.png)
+
+- In a **directed graph**, the sum of lengths of all the adjacency lists is equal to the number of edges present in the graph.
+
+![](Images/Selection_247.png)
+
+- In the case of weighted directed graph, each node contains an extra field that is called the weight of the node.
+
+![](Images/Selection_248.png)
+
+### 2. Adjacency Matrix
+
+- In adjacency matrix, the rows and columns are represented by the graph vertices. A graph having ```n``` vertices, will have a dimension ```n * n```.
+
+- An entry M<sub>ij</sub> in the adjacency matrix representation of an undirected graph ```G``` will be ```1``` if there exists an edge between **V<sub>i</sub>** and **V<sub>j</sub>**.
+
+![](Images/Selection_249.png)
+
+- In directed graph, an entry **A<sub>ij</sub>** will be ```1``` only when there is an edge directed from **V<sub>i</sub>** to **V<sub>j</sub>**.
+
+![](Images/Selection_250.png)
+
+- Representation of **weighted directed graph** is different. Instead of filling the entry by ```1```, the Non- zero entries of the adjacency matrix are represented by the **weight** of respective edges.
+
+![](Images/Selection_251.png)
+
