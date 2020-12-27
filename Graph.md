@@ -40,7 +40,7 @@ Edges represent a specific path from some vertex ```1``` to another vertex ```4`
 
 In a weighted graph, each edge is assigned with some data such as length or weight. The weight of an edge e can be given as ```w(e)``` which must be a positive ```(+)``` value indicating the cost of traversing the edge.
 
-![](Images/Selection_237.png)
+![](Images/Selection_238.png)
 
 ### Unweighted Graph
 
