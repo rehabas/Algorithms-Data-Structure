@@ -162,6 +162,12 @@ There are two algorithms which are being used for this purpose.
 
 ### 1. Prim's Algorithm
 
+- Prim's Algorithm is used to find the minimum spanning tree from a graph. 
+
+- Prim's algorithm finds the subset of edges that includes every vertex of the graph such that the sum of the weights of the edges can be minimized.
+
+- Prim's algorithm starts with the single node and explore all the adjacent nodes with all the connecting edges at every step. The edges with the minimal weights causing no cycles in the graph got selected.
+
 ###### Algorithm 
 
 1. Create a set ```mstSet``` that keeps track of vertices already included in **MST**. 
@@ -225,3 +231,77 @@ The graph produces above is the minimum spanning tree of the graph shown in our 
 The cost of **MST** will be calculated as;
 
 ```cost(MST) = 4 + 8 + 1 + 2 + 4 + 2 + 7 + 9 = 37 units```.
+
+### 2. Kruskal's Algorithm
+
+- Kruskal's Algorithm is used to find the minimum spanning tree for a connected weighted graph. 
+
+- The main target of the algorithm is to find the subset of edges by using which, we can traverse every vertex of the graph. 
+
+- Kruskal's algorithm follows greedy approach which picks the smallest weight edge that does not cause a cycle in the **MST** constructed so far. 
+
+###### Algorithm
+
+1. Sort all the edges in non-decreasing order of their weight. 
+
+2. Pick the smallest edge. Check if it forms a cycle with the spanning tree formed so far. If cycle is not formed, include this edge. Else, discard it.
+
+3. Repeat ```step 2``` until there are ```(V-1)``` edges in the spanning tree.
+
+###### Example
+
+![](Images/Selection_253.png)
+
+The graph contains ```9``` vertices and ```14``` edges. So, the minimum spanning tree formed will be having ```(9 – 1) = 8 edges```. 
+
+the weight of the edges given as :
+
+![](Images/Selection_275.png)
+
+Sort the edges according to their weights.
+
+![](Images/Selection_276.png)
+
+Now pick all edges one by one from sorted list of edges 
+
+1. Pick edge ```7-6```: No cycle is formed, include it. 
+ 
+![](Images/Selection_277.png)
+
+2. Pick edge ```2-8```: No cycle is formed, include it. 
+
+![](Images/Selection_278.png)
+
+3. Pick edge ```6-5```: No cycle is formed, include it. 
+
+![](Images/Selection_279.png)
+
+4. Pick edge ```0-1```: No cycle is formed, include it. 
+
+![](Images/Selection_280.png)
+
+5. Pick edge ```2-5```: No cycle is formed, include it. 
+
+![](Images/Selection_281.png)
+
+6. Pick edge ```8-6```: Since including this edge results in cycle, discard it.
+
+7. Pick edge ```7-8```: Since including this edge results in cycle, discard it.
+
+8. Pick edge ```2-3```: No cycle is formed, include it. 
+
+![](Images/Selection_282.png)
+
+9. Pick edge ```0-7```: No cycle is formed, include it. 
+
+![](Images/Selection_283.png)
+
+10. Pick edge ```1-2```: Since including this edge results in cycle, discard it.
+
+11. Pick edge ```3-4```: No cycle is formed, include it. 
+
+![](Images/Selection_284.png)
+
+Since the number of edges included equals ```(V – 1)```, the algorithm stops here.
+
+the cost of ```MST = 4 + 8 + 1 + 2 + 4 + 2 + 7 + 9 = 37 units```.
