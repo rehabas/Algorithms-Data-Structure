@@ -153,6 +153,15 @@ A degree of a node is the number of edges that are connected with that node. A n
 
 - **Minimum spanning tree** is the one which contains the least weight among all other spanning tree of some particular graph.
 
+we will discuss the algorithms to calculate the shortest path between two nodes in a graph.
+
+There are two algorithms which are being used for this purpose.
+
+1. Prim's Algorithm
+2. Kruskal's Algorithm
+
+### 1. Prim's Algorithm
+
 ###### Algorithm 
 
 1. Create a set ```mstSet``` that keeps track of vertices already included in **MST**. 
